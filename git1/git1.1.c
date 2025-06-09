@@ -27,5 +27,10 @@ return a+b;
 //merge two branch by first switch to main then, git merge <function branch>
 //branching are occur at local repository
 
+//when post new branch in to the remote first do git push --set-upstream origin my-feature
+//after that use git push on the feature branch to push the feature branch
+//to pull the remote branch first time use git switch -c feature origin/feature
+//later can use git fetch to fetch all the remote exist branch at your repository
+
 
 
