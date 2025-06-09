@@ -4,7 +4,7 @@ int main (void){
     printf("newline new\n");
  int m=5;
  int a=3;
-
+printf("%i\n", sum(m,a));
 
 }
 
