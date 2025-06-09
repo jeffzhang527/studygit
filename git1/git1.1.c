@@ -24,7 +24,7 @@ return a+b;
 //switch between branch use git checkout <>
 //git merge combine the branch from the test branch to the master branch
 //after merge, master branch will have the history changing that test branch have
-//first check
+//merge two branch by git merge <function branch>
 
 
 
