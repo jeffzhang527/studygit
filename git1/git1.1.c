@@ -25,6 +25,7 @@ return a+b;
 //git merge combine the branch from the test branch to the master branch
 //after merge, master branch will have the history changing that test branch have
 //merge two branch by first switch to main then, git merge <function branch>
+//branching are occur at local repository
 
 
 
