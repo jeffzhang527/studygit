@@ -13,6 +13,8 @@ int sum(int a, int b)
 return a+b;
 }
 
+//press wsl.exe enter the ubuntu for intellji press exit to exit the enviornment
+
 //对于merge conflict
 //发生情况:when two person change the same line(area) in the repository
 //if changing is at different area it won't conflict
@@ -32,5 +34,8 @@ return a+b;
 //to pull the remote branch first time use git switch -c feature origin/feature
 //later can use git fetch to fetch all the remote exist branch at your repository
 
+//remote local repository: fetch/clone, push
+//local repository  workspace checkout, add commint
+//remote  workspace: pull(fetch+merge)
 
 
