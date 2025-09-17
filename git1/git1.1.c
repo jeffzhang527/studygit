@@ -14,6 +14,20 @@ return a+b;
 }
 
 //press wsl.exe enter the ubuntu for intellji press exit or logout to exit the enviornment
+//git branch: see whole branch
+//git branch branch_name: add a new branch
+//git checkout branch_name: switch head to branch name
+//git checkout -b new_branch: create the new branch and switch the head to new branch
+//git push -u origin main: push the origin to main and link them
+//git push -u origin feature_branch:
+//Pushes your local branch feature_branch to the remote repository origin.
+//Creates the remote branch feature_branch (if it doesn’t already exist).
+//Sets an upstream (tracking) relationship between your local branch and the remote branch.
+
+
+
+
+
 
 
 //adding a new file: untracked changing an file: unstaged
