@@ -13,7 +13,14 @@ int sum(int a, int b)
 return a+b;
 }
 
-//press wsl.exe enter the ubuntu for intellji press exit to exit the enviornment
+//press wsl.exe enter the ubuntu for intellji press exit or logout to exit the enviornment
+
+
+//adding a new file: untracked changing an file: unstaged
+
+//origin: local point to the github repository(name)
+//main: main branch
+//token: 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
 
 //对于merge conflict
 //发生情况:when two person change the same line(area) in the repository
