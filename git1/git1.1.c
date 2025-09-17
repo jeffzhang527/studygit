@@ -88,3 +88,9 @@ return a+b;
 //commit c revert commit A, then it don't know which to delete
 //after solving the conflict, git add . to stage it and git revert --continue
 //get stuck, cancel whole thing :git revert --abort
+
+//git stash: when you want to fix an urgent bug but you are not ready to commit in your new progress
+//git stash help you tempoaray save the new one
+//git stash: just run it will save the new code(hasn't commit) while only display the last commit code
+//git stash list\ :after fixed it and commit it, get the stash name that just saved by press this
+//git stash apply stash@{number represent this stash}
