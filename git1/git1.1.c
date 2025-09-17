@@ -14,6 +14,14 @@ return a+b;
 }
 
 //press wsl.exe enter the ubuntu for intellji press exit or logout to exit the enviornment
+//git clone url : copy remote repository to your local: local stuff you wrote before disappear if have
+//git remote add origin  url : link only the remote repo to local repo
+//git clone = "download & link."
+//git remote add origin = "link only."
+
+
+
+
 //git branch: see whole branch
 //git branch branch_name: add a new branch
 //git checkout branch_name: switch head to branch name
@@ -62,9 +70,13 @@ return a+b;
 //after that use git push on the feature branch to push the feature branch
 //to pull the remote branch first time use git switch -c feature origin/feature
 //later can use git fetch to fetch all the remote exist branch at your repository
-
-//remote local repository: fetch/clone, push
-//local repository  workspace checkout, add commint
 //remote  workspace: pull(fetch+merge)
 
 
+//undo and recovery
+//git reset remove the trace in commit in history (from particular point) without deleting the code
+//git reset --soft somecommit: will delete the commit and commit after that and put code that update with those commit to staging area
+//git reset somecommit: will delete the commit and the commit after that thus all changes(code) made after that commitn will go to the working directory
+//git reset --hard somecommit: will delete all the commit after that commit and the code alongside will delete too
+
+//git revert: c
