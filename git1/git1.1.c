@@ -43,7 +43,8 @@ return a+b;
 //in rebase, feature branch commit will always comes later after the main commit
 //in merge, it totally depends on which branch create the new commit first to put that commit first
 
-
+//git rebase --continue    # continue after fixing conflict
+//git rebase --abort       # cancel a rebase
 
 
 //adding a new file: untracked changing an file: unstaged
@@ -55,7 +56,7 @@ return a+b;
 //对于merge conflict
 //发生情况:when two person change the same line(area) in the repository
 //if changing is at different area it won't conflict
-
+//after solving the conflict, add to staging area and add a new commit can be solve merge conflict
 
 //branching: different version of the code going in same repository 
 //git branch show all branch
@@ -79,4 +80,11 @@ return a+b;
 //git reset somecommit: will delete the commit and the commit after that thus all changes(code) made after that commitn will go to the working directory
 //git reset --hard somecommit: will delete all the commit after that commit and the code alongside will delete too
 
-//git revert: c
+//git revert commit: retain the commit but the code with that commit will disappear
+//after revert, it will ask a new commit to state revert commit x or can just skip it by press    :qa!
+
+//git revert might show conflict if:
+//commit A add the code, commit b change that code
+//commit c revert commit A, then it don't know which to delete
+//after solving the conflict, git add . to stage it and git revert --continue
+//get stuck, cancel whole thing :git revert --abort
