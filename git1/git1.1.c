@@ -17,6 +17,8 @@ return a+b;
 //git branch: see whole branch
 //git branch branch_name: add a new branch
 //git checkout branch_name: switch head to branch name
+
+//when create a new feature branch, the old main code will copy to the feature branch as it start
 //git checkout -b new_branch: create the new branch and switch the head to new branch
 //git push -u origin main: push the origin to main and link them
 //git push -u origin feature_branch:
@@ -25,7 +27,13 @@ return a+b;
 //Sets an upstream (tracking) relationship between your local branch and the remote branch.
 
 
-
+//merge and rebase
+//they are all merging feature branch to main branch
+//if the time of adding a commit in feature branch is earlier that commit add in main branch,
+//in rebase: main commit will come earlier that feature branch commit
+//in merge: main commit will come later that feature branch commit
+//in rebase, feature branch commit will always comes later after the main commit
+//in merge, it totally depends on which branch create the new commit first to put that commit first
 
 
 
